@@ -13,7 +13,12 @@ const Transaction = ({transaction}) => {
           <h1 className='font-semibold text-xl text-black capitalize'>{transaction.to}</h1>
         </div>
         <div className='flex items-center '>
-          <p className='font-normal text-gray-400 text-base '>{transaction.date}</p>
+          <p className='font-normal hidden sm:block text-gray-400 text-base '>
+              {transaction.date}
+          </p>
+          <p className='font-normal sm:hidden flex text-gray-400 text-base '>
+              {transaction.smScreenDate}
+          </p>
           <BsDot size={20} color="gray"/>
           <p className='font-normal text-gray-400 text-base '>{transaction.time}</p>
         </div>
