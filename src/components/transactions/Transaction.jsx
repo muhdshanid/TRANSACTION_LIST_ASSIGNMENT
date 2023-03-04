@@ -19,8 +19,8 @@ const Transaction = ({transaction}) => {
           <p className='font-normal sm:hidden flex text-gray-400 text-base '>
               {transaction.smScreenDate}
           </p>
-          <BsDot size={20} color="gray"/>
-          <p className='font-normal text-gray-400 text-base '>{transaction.time}</p>
+          <BsDot size={20} color="gray" className='hidden sm:block'/>
+          <p className='font-normal hidden sm:block text-gray-400 text-base '>{transaction.time}</p>
         </div>
       </div>
       </div>
