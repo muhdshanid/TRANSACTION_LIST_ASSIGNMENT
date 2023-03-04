@@ -3,7 +3,7 @@ import Transaction from './Transaction'
 import { transactions } from '../../data/transactions'
 const TransactionList = () => {
   return (
-    <div className='min-h-full sm:w-8/12 md:w-8/12 xl:w-7/12 lg:w-8/12 w-12/12 rounded-lg flex flex-col gap-6'>
+    <div className='min-h-full sm:w-8/12 md:w-8/12 xl:w-7/12 lg:w-8/12 w-full rounded-lg flex flex-col gap-6'>
         <div className='flex items-center justify-between'>
         <h1 className='font-semibold text-2xl capitalize text-black'>last transactions</h1>
         <p className='font-medium
